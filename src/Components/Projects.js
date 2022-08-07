@@ -3,15 +3,15 @@ import ProjectCard from "./ProjectCard";
 
 function Projects(){
     return(
-        <div className="w-full flex flex-col justify-start box-border">
-            <div className="flex justify-start">
+        <div className="w-full flex flex-col justify-center align-middle box-border">
+            <div className="flex flex-wrap justify-start">
             <ProjectCard />
             <ProjectCard />
             <ProjectCard />
             <ProjectCard />
             <ProjectCard />
             <ProjectCard />
-            <ProjectCard />
+
 
             </div>
            
