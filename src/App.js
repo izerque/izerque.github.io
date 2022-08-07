@@ -1,24 +1,17 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Copyright from './Components/Copyright';
+import TopMenu from './Components/TopMenu';
+import Main from './Components/Main';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello my name is Isaac and I am from nakasongola
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div className='px-5'>
+    <TopMenu />
+   <Copyright />
+   <Main />
+
+   </div>
   );
 }
 
