@@ -3,8 +3,8 @@ import ProjectCard from "./ProjectCard";
 
 function Projects(){
     return(
-        <div className="w-full flex flex-col justify-center align-middle box-border">
-            <div className="flex flex-wrap justify-start">
+        <div className="w-full flex  justify-center align-middle box-border">
+            <div className="flex flex-wrap justify-start p-5 ">
             <ProjectCard />
             <ProjectCard />
             <ProjectCard />
@@ -32,9 +32,9 @@ Marketing.
 </div> */}
 
 
-<h1 className="font-bold  opacity-40 text-right text-gray-200 text-8xl align-top">
+{/* <h1 className="font-bold  opacity-40 text-right text-gray-200 text-8xl align-top">
                     Projects
-                </h1>
+                </h1> */}
         </div>
     );
 }

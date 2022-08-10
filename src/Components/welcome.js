@@ -3,13 +3,13 @@ import React from "react";
 function Welcome(){
     return(
         <div className="w-full  box-border md:h-screen ">
-             <h1 className="font-bold  opacity-40 text-right text-gray-200 text-8xl align-top">
+             <h1 className=" font-extrabold opacity-40 text-right text-gray-200 text-7xl  align-top">
                     WELCOME
                 </h1>
             <div className="bg-white -mt-6 pt-10">
                
-            <h1 className="font-bold text-6xl  p-4 m-0 leading-lose py-5">
-                Hi,<br/> Am <span className="text-cyan-600">Izerque</span>, <span className="font-light"><br/>Web Developer</span>
+            <h1 className="font-bold text-6xl lg:text-8xl  p-4 mt-32 leading-lose py-5">
+                Hi,<br/> I'm <span className="text-cyan-600">Izerque</span>, <span className="font-light"><br/>Web Developer</span>
             </h1>
             <p className="font-mono text-gray-500 px-5 mt-0">
             Frontend Design/Development  Graphics Design  Digital
