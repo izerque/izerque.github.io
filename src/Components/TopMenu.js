@@ -10,16 +10,42 @@ function TopMenu(){
 
 
 </div>
-{/* <div className='top-profile flex justify-center items-centerinvisible md:visible '> 
-            <div className=' w-5 bg-gray-400  rounded-full h-5 '>
 
-            </div>
+<div className='top-profile flex justify-center items-center md:invisible'> 
+            {/* <div className=' w-5 bg-gray-400  rounded-full h-5 '>
+
+            </div> */}
             <a href="#">
-            <h3 className='fon-light ml-3 flex justify-around'>
+            <h3 className='fon-light ml-3 font-bold text-gray-500 flex justify-around'>
                 Mbangire Isaac Maiso
             </h3>
             </a>
-            </div> */}
+            </div>
+            <div className="invisible md:visible">
+    <nav className="flex flex-row decoration-none">
+        <li className="">
+            <a className="decoration-none">
+                Home
+            </a>
+        </li>
+        <li>
+            <a>
+                Skills
+            </a>
+        </li>
+        <li>
+            <a>
+                Blog
+            </a>
+        </li>
+        <li>
+            <a>
+                Contact
+            </a>
+        </li>
+    </nav>
+</div>
+
 
 <button className='bg-cyan-600 cursor-pointer rounded-full text-white font-bold h-8 w-auto px-5'>
     HIRE ME
