@@ -7,7 +7,7 @@ import Contact from './Components/Contact';
 
 function App() {
   return (
-    <div className='px-5 w-11.5/12 flex justify-center lg:w-10/12  xl:w-9/10 flex-col mx-auto'>
+    <div className='px-5 w-12/12 flex justify-center lg:w-10/12  xl:w-9/10 flex-col mx-auto'>
     <TopMenu />
     <Main />
     <Contact />

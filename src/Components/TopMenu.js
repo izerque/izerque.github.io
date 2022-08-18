@@ -1,5 +1,9 @@
 import React from "react";
 
+const handleClick=()=>{
+    console.log('am active')
+}
+
 function TopMenu(){
     return(
         <div className='w-full h-12  left-0 flex justify-between items-center'>
@@ -11,7 +15,7 @@ function TopMenu(){
 
 </div>
 
-<div className='top-profile flex justify-center items-center md:invisible'> 
+<div className='flex justify-center items-center md:invisible'> 
             {/* <div className=' w-5 bg-gray-400  rounded-full h-5 '>
 
             </div> */}
@@ -45,11 +49,14 @@ function TopMenu(){
         </li>
     </nav>
 </div>
+<div>
 
 
-<button className='bg-cyan-600 cursor-pointer rounded-full text-white font-bold h-8 w-auto px-5'>
+<button onClick={handleClick()} className='bg-cyan-600 cursor-pointer rounded-full text-white font-bold h-8 w-auto px-5'>
     HIRE ME
 </button>
+</div>
+
 
             </div>
     );

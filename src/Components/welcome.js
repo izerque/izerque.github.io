@@ -9,7 +9,7 @@ function Welcome(){
             <div className="bg-white mt-6 pt-10">
                
             <h1 className="font-bold text-6xl lg:text-8xl  p-4 mt-32 leading-lose py-5">
-                Hi,<br/> I'm <span className="text-cyan-600">Izerque</span>, <span className="font-light"><br/>Web Developer</span>
+                Hi,<br/> I'm <span className="text-cyan-600">Izerque</span>, <span className="font-light text-5xl"><br/>Web Developer</span>
             </h1>
             <p className="font-mono text-gray-500 px-5 mt-0">
             Frontend Design/Development  Graphics Design  Digital
