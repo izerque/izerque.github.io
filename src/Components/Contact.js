@@ -1,5 +1,7 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import Feedback from './Feedback';
+import Socials from './socials';
 
 
 function Contact(){
@@ -20,19 +22,24 @@ function Contact(){
 
 
     return(
-        <div className="w-full  box-border md:h-screen  ">
+        <div className="w-full   md:h-screen  ">
              
-            <div className="bg-white pt-10 flex flex-col md:flex-row md:items-start justify-start ">
+            <div className="bg-white pt-10 flex flex-col md:flex-row md:items-start justify-start md:justify-between ">
 
                 {/* Form Header */}
-               <div className="md:w-1/2 md:justify-between">
+               <div className="md:w-1/2 flex flex-col ites-center md:justify-between ">
             <h1 className="font-regular text-cyan-600 text-4xl p-4 m-0 leading-lose py-5">
                Contact Me
             </h1>
-            <p className= "w-full lg:w-4/5 text-gray-500 px-5 mt-0">
-            I&apos;m interested in freelance opportunities &#8254; especially ambitious or large projects. However, if you have other request or question, don&apos;t hesitate to use the form.
-Marketing.
+            <p className= "w-full md:10/12 text-gray-500 px-5 mt-0 ">
+            I&apos;m interested in freelance opportunities especially ambitious or large projects. However, if you have other request or question, don&apos;t hesitate to use the form.
+
             </p>
+            <p className= "w-full md:10/12  text-gray-500 px-5 mt-0 ">
+            I&apos;m interested in freelance opportunities especially ambitious or large projects. However, if you have other request or question, don&apos;t hesitate to use the form.
+
+            </p>
+            <Socials />
             </div>
 
             {/* form section */}
@@ -52,6 +59,8 @@ Marketing.
       <input className=' w-auto border-2 mt-4  border-cyan-600  rounded-xl cursor-pointer   text-gray-700 font-light py-1  px-4' type="submit" value="Send Message" />
     </form>
 
+    <Feedback />
+
             
 
             {/* <button  type="submit">
@@ -59,9 +68,7 @@ Marketing.
 </button> */}
 </div>
 </div>
-<h1 className="font-bold  opacity-40 text-right text-gray-200 text-8xl align-top">
-                        Contact
-                </h1>
+
         </div>
     );
 }

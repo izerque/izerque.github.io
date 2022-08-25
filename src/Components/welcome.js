@@ -16,7 +16,9 @@ function Welcome(){
 Marketing.
             </p>
             <button className='border-2 mt-6 border-cyan-600 ml-5 rounded-xl cursor-pointer  text-gray-700 font-light py-1 w-89 px-4'>
+                <a href="https://docs.google.com/document/d/1p40diRxI5lk-rYWAHgB_NWP0XOONGYPJEfwaWgMDrGY" target="_blank">
     View CV & Portfolio
+    </a>
 </button>
 </div>
         </div>

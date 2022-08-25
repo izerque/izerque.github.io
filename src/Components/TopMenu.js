@@ -1,4 +1,5 @@
 import React from "react";
+import Nav from "./Nav";
 
 const handleClick=()=>{
     console.log('am active')
@@ -15,7 +16,7 @@ function TopMenu(){
 
 </div>
 
-<div className='flex justify-center items-center md:invisible'> 
+<div className='flex justify-center items-center md:hidden'> 
             {/* <div className=' w-5 bg-gray-400  rounded-full h-5 '>
 
             </div> */}
@@ -25,29 +26,8 @@ function TopMenu(){
             </h3>
             </a>
             </div>
-            <div className="invisible md:visible">
-    <nav className="flex flex-row decoration-none">
-        <li className="">
-            <a className="decoration-none">
-                Home
-            </a>
-        </li>
-        <li>
-            <a>
-                Skills
-            </a>
-        </li>
-        <li>
-            <a>
-                Blog
-            </a>
-        </li>
-        <li>
-            <a>
-                Contact
-            </a>
-        </li>
-    </nav>
+            <div className="hidden md:block">
+            <Nav />
 </div>
 <div>
 
