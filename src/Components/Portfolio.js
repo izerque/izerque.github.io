@@ -4,7 +4,7 @@ function Portfolio(){
     return(
         <div className="w-full  box-border md:h-screen ">
              
-            <div className="bg-white pt-10">
+            <div className=" pt-10">
                
             <h1 className="font-regular text-cyan-600 text-4xl p-4 m-0 leading-lose py-5">
                My Portfolio

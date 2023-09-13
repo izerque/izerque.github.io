@@ -9,7 +9,7 @@ import Projects from "./Projects";
 function Main (){
     return(
         <div className="">
-            <div className=" w-full md:w-full flex  flex-col justify-center pt-auto pb-auto  md:justify-start md:items-start ">
+            <div className="w-full md:w-full flex flex-col justify-center md:justify-start md:items-start">
             {/* card */}
             <Welcome />
             <Portfolio />
