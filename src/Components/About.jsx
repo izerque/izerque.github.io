@@ -56,7 +56,7 @@ function About(){
 </div>
 
 <h1 className="absolute right-0 font-extrabold pt-8 top-0 text-right text-gray-100 text-7xl  align-top" style={{ opacity: '10%' }}>
-                story
+                About Me
                 </h1>
         </div>
     );
