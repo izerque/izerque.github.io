@@ -1,5 +1,5 @@
 import React from "react";
-import isaac from '../images/isaac.jpg';
+import isaac from '../isaacM.png';
 
 
 
@@ -24,9 +24,9 @@ function About(){
     return(
         <div className="w-fulls flex justify-center items-center relative h-screen ">
              
-            <div className=" mx-20 w-9/12 flex rounded-[20px] bg-gray-500 border-[1.5px] relative border-gray-600 bg-opacity-20 p-10"  >
+            <div className=" mx-20 w-9/12 flex rounded-[20px] bg-gray-500 border-[1.5px] relative border-gray-600 bg-opacity-20 p-10 justify-center items-center"  >
                <div className="w-1/2"> 
-                <div className=" border flex flex-col justify-between h-7/12">
+                <div className="flex flex-col justify-between h-7/12">
                          <h1 className="font-bold text-cyan-600   text-4xl p-4  leading-lose py-5">
               About Me
             </h1>
@@ -38,7 +38,7 @@ function About(){
             
            
 </div>
-<div className=" w-1/2 px-4 my-6 flex flex-col gap-4">
+<div className=" px-4 my-6 flex flex-col gap-4">
     <p className=" text-cyan-600  font-medium">Technologies:</p>
 
     <div className="">
@@ -48,8 +48,8 @@ function About(){
     
 </div>
 </div>
-<div className="photo-holder bg-no-repeat border-2 w-1/2 border-red-600" style={{ backgroundImage: `url(${isaac})` }}>
-
+<div className="photo-holder items-center justify-center flex p-4  w-1/2" >
+<img className="w-[400px] h-[410px]" src={isaac} alt="Isaac M" />
 </div>
 
 
