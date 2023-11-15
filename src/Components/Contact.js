@@ -24,7 +24,7 @@ function Contact(){
     return(
         <div className="w-full   md:h-screen  ">
              
-            <div className="bg-white pt-10 flex flex-col md:flex-row md:items-start justify-start md:justify-between ">
+            <div className=" pt-10 flex flex-col md:flex-row md:items-start justify-start md:justify-between ">
 
                 {/* Form Header */}
                <div className="md:w-1/2 flex flex-col ites-center md:justify-between ">

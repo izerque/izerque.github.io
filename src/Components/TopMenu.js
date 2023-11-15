@@ -1,13 +1,17 @@
 import React from "react";
 import Nav from "./Nav";
 
+
+
+const navItems = ['About', 'Expirience', 'Work', 'Contact']
+
 const handleClick=()=>{
     console.log('am active')
 }
 
 function TopMenu(){
     return(
-        <div className='w-full h-12  left-0 flex justify-between items-center'>
+        <div className='w-full h-[120px]  flex justify-between items-center'>
                 <div className='h-full visible md:invisible  pl-0  cursor-pointer'>
             <svg xmlns="http://www.w3.org/2000/svg" className="h-full w-10 " fill="none" viewBox="0 0 24 24" stroke="currentColor"  color='slate' strokeWidth="2">
   <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
@@ -27,9 +31,10 @@ function TopMenu(){
             </a>
             </div>
             <div className="hidden md:block">
-            <Nav />
+            <Nav items={navItems} />
 </div>
 <div>
+    
 
 
 <button onClick={handleClick()} className='bg-cyan-600 cursor-pointer rounded-full text-white font-bold h-8 w-auto px-5'>

@@ -2,11 +2,11 @@ import React from "react";
 
 function Welcome(){
     return(
-        <div className="w-full  box-border md:h-screen bg-white ">
+        <div className="w-full  box-border md:h-screen">
              <h1 className=" font-extrabold opacity-40 text-right text-gray-200 text-7xl  align-top">
                     WELCOME
                 </h1>
-            <div className="bg-white mt-6 pt-10">
+            <div className=" mt-6 pt-10">
                
             <h1 className="font-bold text-6xl lg:text-8xl  p-4 mt-32 leading-lose py-5">
                 Hi,<br/> I'm <span className="text-cyan-600">Izerque</span>, <span className="font-light text-5xl"><br/>Web Developer</span>
