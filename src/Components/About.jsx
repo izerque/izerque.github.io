@@ -1,23 +1,12 @@
 import React from "react";
 import isaac from '../isaacM.png';
+import TechRender from "./TechRender";
 
 
 
+const items = ['ReactJS', 'NextJS', 'Tailwind CSS', 'Typescript','Git' ,'Github', 'GraphQL'];
 
-const techItems = ['ReactJS', 'NextJS', 'Tailwind CSS', 'Typescript','Git' ,'Github', 'GraphQL'];
 
-function TechRender({items}){
-    return(
-        <nav className="flex flex-row flex-wrap gap-4 font-light decoration-none">
-        
-        {items.map((item, index) => (
-          <li key={index} className="list-none">
-          <button className='border-[1.5px]  border-cyan-600 rounded-full cursor-pointer hover:bg-cyan-600   text-cyan-600  text-[12px] font-semibold w-auto hover:bg-opacity-20 px-[16px] py-[4px]'>{item}</button>
-          </li>
-        ))}
-      </nav>
-    );
-}
 
 
 function About(){
@@ -42,7 +31,7 @@ function About(){
     <p className=" text-cyan-600  font-medium">Technologies:</p>
 
     <div className="">
-    <TechRender items={techItems} />
+    <TechRender items={items} />
     </div>
 
     
@@ -61,4 +50,4 @@ function About(){
         </div>
     );
 }
-export default About;
+export default  { About , TechRender };

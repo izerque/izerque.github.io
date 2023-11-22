@@ -46,26 +46,21 @@ function Contact(){
             <div className="md:w-1/2 p-5">
             <form ref={form} onSubmit={sendEmail} className=""> 
                 {/* ref={form} onSubmit={sendEmail} some missing code */}
-      
-      <input type="text" name="user_name"  Value="Name" className="bg-gray-100 w-1/2 p-5 h-10" />
+     
+      <input type="text" name="user_name"  value="Name" className="bg-gray-100 w-1/2 p-5 h-10" />
     
-      <input type="email" name="user_email" Value="Email" className="bg-gray-100 w-1/2 p-5 h-10" />
+      <input type="email" name="user_email" value="Email" className="bg-gray-100 w-1/2 p-5 h-10" />
 
-      <input type="text" name="subject" Value="Subject" className="bg-gray-100 w-full mt-2 p-5 h-10" />
+      <input type="text" name="subject" value="Subject" className="bg-gray-100 w-full mt-2 p-5 h-10" />
 
 
     
-      <textarea name="message" Value="Message" className='w-full bg-gray-100 h-40 mt-2 p-5' />
+      <textarea name="message" value="Message" className='w-full bg-gray-100 h-40 mt-2 p-5' />
       <input className=' w-auto border-2 mt-4  border-cyan-600  rounded-xl cursor-pointer   text-gray-700 font-light py-1  px-4' type="submit" value="Send Message" />
     </form>
 
     <Feedback />
 
-            
-
-            {/* <button  type="submit">
- Send Message
-</button> */}
 </div>
 </div>
 
